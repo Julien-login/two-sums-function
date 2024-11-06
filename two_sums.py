@@ -5,3 +5,5 @@ def two_sums(l: list[int], target: int) -> (int, int):
             if l[i] + l[j] == target:
                 return (i, j)
     return None
+
+# Test: Diese Funktion gibt die Indizes zweier Summanden zurück
